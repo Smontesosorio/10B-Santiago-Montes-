@@ -6,10 +6,10 @@
 import java.util.Scanner;
 
 /**
- * This program prompts the user to enter two numbers
+ * This program prompts the user to enter three numbers
  * and then calculates and displays their sum.
  */
-public class SumOfTwoNumbers {
+public class SumOfThreeNumbers {
 
     public static void main(String[] args) {
 
@@ -33,17 +33,17 @@ public class SumOfTwoNumbers {
 
         System.out.println("Please enter the third number:");
 
-        // 5. Read the second number and store it in another variable.
+        // 6. Read the third number and store it in another variable.
         double number3 = scanner.nextDouble();
 
-        // 6. Calculate the sum of the two numbers.
+        // 7. Calculate the sum of the three numbers.
         double sum = number1 + number2 + number3;
 
-        // 7. Display the sum to the user.
+        // 8. Display the sum to the user.
         // A descriptive message is used to make the result clear.
-        System.out.println("The sum of " + number1 + " and " + number2 " and " + number3 + " is: " + sum);
+        System.out.println("The sum of " + number1 + " and " + number2 + " and " + number3 + " is: " + sum);
 
-        // 8. Close the Scanner object.
+        // 9. Close the Scanner object.
         // This is a good practice to free up system resources.
         scanner.close();
     }
