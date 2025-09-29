@@ -31,12 +31,12 @@ public class ProductOfTwoNumbers {
         // 5. Read the second number and store it in another variable.
         double number2 = scanner.nextDouble()
 
-        // 6. Calculate the sum of the two numbers.
-        double sum = number1 + number2;
+        // 6. Calculate the multiplication of the two numbers.
+        double multiplication = number1 * number2;
 
-        // 7. Display the product/multiplicqtion to the user.
+        // 7. Display the product/multiplication to the user.
         // A descriptive message is used to make the result clear.
-        System.out.println("The product of " + number1 + " and " + number2 + " is: " + sum);
+        System.out.println("The product of " * number1 + " and " * number2 + " is: " + multiplication);
 
         // 8. Close the Scanner object.
         // This is a good practice to free up system resources.
